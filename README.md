@@ -6,7 +6,7 @@
 
 #### Assignments
 
-- Arrays
+- **ARRAYS**
 
 1. Random Restaurant Generator
 
@@ -16,10 +16,10 @@
 
     Hints:
 
-    - To calculate a random number in JS we can use
+    - To calculate a random number in JS we can use:
         - Math.floor(Math.random()*howManyNums)
             - Math.floor(num) rounds a number down to the nearest integer.
-            - Math.random() returns a random number between 0 (inclusive) and 1 (exclusive)
+            - Math.random() returns a random number between 0 (inclusive) and 1 (exclusive).
 
 2. Random Restaurant Generator - Advanced
 
@@ -29,11 +29,11 @@
 
     - [x] _**Instructor's solutions**_
 
-    ![Instructor's solution](./instSol.png)
+    ![Instructor's solution](./images/instSol.png)
 
-    ![Instructor's solution](./instSol2.png)
+    ![Instructor's solution](./images/instSol2.png)
 
-- Objects
+- **OBJECTS**
 
 1. Profile Lookup
 

@@ -1,12 +1,12 @@
-// Arrays
+// ARRAYS
 
 // 1. Random Restaurant Generator
 
 let restaurants = ["Popeye", "Chick Fill-A", "KFC", "Taco Bell", "Mc Donald's"];
 
 function getRandomRestaurant(restArray) {
-    let restIndex = Math.floor(Math.random() * restArray.length)
-    return restArray[restIndex]
+    let restIndex = Math.floor(Math.random() * restArray.length);
+    return restArray[restIndex];
 }
 
 let restaurant = getRandomRestaurant(restaurants);
@@ -27,17 +27,17 @@ const bbqRestaurants = [
 function getRandomRestaurantDistance(restDistArray, distance) {
     let restIndex = Math.floor(Math.random() * restDistArray.length)
 
-    restaurantX = restDistArray[restIndex]
+    restaurantX = restDistArray[restIndex];
 
     if (restaurantX[1] <= distance) {
-        return `${restaurantX[0]} restaurant within the distance: ${distance}, with ${restaurantX[1]} miles`
+        return `${restaurantX[0]} restaurant within the distance: ${distance}, with ${restaurantX[1]} miles`;
     } else {
-        return "Try again"
+        return "Try again";
     }
 }
 
-let chosenRestaurant = getRandomRestaurantDistance(bbqRestaurants, 10)
-console.log(chosenRestaurant)
+let chosenRestaurant = getRandomRestaurantDistance(bbqRestaurants, 10);
+console.log(chosenRestaurant);
 
 /* 'Q39 restaurant within the distance: 10, with 9 miles'
 "LC's BBQ restaurant within the distance: 10, with 10 miles"
@@ -46,7 +46,7 @@ Try again
  */
 
 
-// Objects
+// OBJECTS
 
 // 1. Profile Lookup
 
@@ -60,12 +60,12 @@ function getNumberOfSiblings(profObj) {
     return profObj.numberOfSiblings;
 }
 
-let siblings = getNumberOfSiblings(userProfile)
+let siblings = getNumberOfSiblings(userProfile);
 
 console.log(siblings) // 2
 
 
-// Profile Lookup - Advanced
+// 2. Profile Lookup - Advanced
 
 const players = [{
         name: 'Mahomes',
@@ -90,14 +90,14 @@ function getPosition(names, numbers) {
 
     players.forEach(player => {
         if (player.name == names && player.number == numbers) {
-            foundPlayer = player.position
+            foundPlayer = player.position;
         }
     });
 
     if (!foundPlayer) {
-        return 'Player not found'
+        return 'Player not found';
     }
-    return foundPlayer
+    return foundPlayer;
 
 }
 
